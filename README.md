@@ -1,1 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/css.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:300i,400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="../ссайт/assets/images/favicon_package_v0.16/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../ссайт/assets/images/favicon_package_v0.16/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../ссайт/assets/images/favicon_package_v0.16/favicon-16x16.png">
+    <link rel="manifest" href="../ссайт/assets/images/favicon_package_v0.16/site.webmanifest">
+    <link rel="mask-icon" href="../ссайт/assets/images/favicon_package_v0.16//safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#603cba">
+    <meta name="theme-color" content="#ffffff">
+    <title>сайт</title>
+   
+</head>
+<body>
+
+
+<header class="header" id="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__logo" data-scroll="#intro">сайт</div>
+
+            <nav class="nav" id="nav">
+                <a class="nav__link" href="#" data-scroll="#about"> о нас</a>
+                <a class="nav__link" href="#" data-scroll="#services">информация</a>
+                
+                <a class="nav__link" href="#" data-scroll="#and">контакты</a>
+                <a class="nav__link" href="#">
+                    
+                </a>
+                <a class="nav__link" href="#">
+                    
+                </a>
+            </nav>
+
+            <button class="nav-toggle" id="nav_toggle" type="button">
+                <span class="nav-toggle__item">меню</span>
+            </button>
+        </div>
+    </div>
+</header>
+
+
+<div class="page">
+
+    <!-- Intro -->
+    <div class="intro" id="intro">
+        <div class="container">
+            <div class="intro__inner">
+                <h2 class="intro__suptitle">здраствуйте</h2>
+                <h1 class="intro__title">это супер дупер сайт </h1>
+
+                <a class="btn" href="#">любая ссылка</a>
+            </div>
+        </div>
+
+        <div class="slider">
+            <div class="container">
+                <div class="slider__inner">
+                    <div class="slider__item active">
+                        <span class="slider__num">00</span>
+                        <span class="slider__text">интро</span>
+                    </div>
+                    <div class="slider__item">
+                        <span class="slider__num">01</span>
+                        <span class="slider__text">ссылки</span>
+                    </div>
+                    <div class="slider__item">
+                        <span class="slider__num">02</span>
+                        <span class="slider__text">о нас</span>
+                    </div>
+                    <div class="slider__item">
+                        <span class="slider__num">03</span>
+                        <span class="slider__text">конакты</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div><!-- /.intro -->
+
+
+    <!-- About -->
+    <section class="section" id="about">
+        <div class="container">
+
+            <div class="section__header">
+                <h3 class="section__suptitle">ссылки</h3>
+                <h2 class="section__title">под заголовок</h2>
+                <div class="section__text">
+                    <p>текст</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card__item">
+                    <div class="card__inner">
+                        <div class="card__img">
+                            <img href="https://qiwi.com/payment" src="assets/images/about/1.jpg" alt="">
+                        </div>
+                        <a div href="https://qiwi.com/payment" class="card__text">ссылка</a div>
+                    </div>
+                </div>
+
+                <div class="card__item">
+                    <div class="card__inner">
+                        <div class="card__img">
+                            <img src="assets/images/about/2.jpg" alt="">
+                        </div>
+                        <a div href="https://qiwi.com/payment" class="card__text">ссылка</a div>
+                    </div>
+                </div>
+
+                <div class="card__item">
+                    <div class="card__inner">
+                        <div class="card__img">
+                            <img src="assets/images/about/3.jpg" alt="">
+                        </div>
+                        <a div href="https://qiwi.com/payment" class="card__text">ссылка</a div>
+                    </div>
+                </div>
+            </div>
+
+        </div><!-- /.container -->
+    </section>
+
+
+    <!-- Statistics -->
+    <div class="statistics">
+        <div class="container">
+
+            <div class="stat">
+                <div class="stat__item">
+                    <div class="stat__count"></div>
+                    <div class="stat__text"></div>
+                </div>
+                <div class="stat__item">
+                    <div class="stat__count"></div>
+                    <div class="stat__text"></div>
+                </div>
+                <div class="stat__item">
+                    <div class="stat__count"></div>
+                    <div class="stat__text"></div>
+                </div>
+                <div class="stat__item">
+                    <div class="stat__count"></div>
+                    <div class="stat__text"></div>
+                </div>
+                <div class="stat__item">
+                    <div class="stat__count"></div>
+                    <div class="stat__text"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Services -->
+    <section class="section" id="services">
+        <div class="container">
+
+            <div class="section__header">
+                <h3 class="section__suptitle">заголовок</h3>
+                <h2 class="section__title">информация</h2>
+            </div>
+
+            <div class="services">
+                <div class="services__item  services__item--border">
+                    <img class="services__icon" src="assets/images/services/photography.png" alt="">
+
+                    <div class="services__title">заголовок</div>
+                    <div class="services__text">инфо.</div>
+                </div>
+                <div class="services__item  services__item--border">
+                    <img class="services__icon" src="assets/images/services/webdesign.png" alt="">
+
+                    <div class="services__title">заголовок</div>
+                    <div class="services__text">инфо</div>
+                </div>
+                <div class="services__item  services__item--border">
+                    <img class="services__icon" src="assets/images/services/creativity.png" alt="">
+
+                    <div class="services__title">заголовок</div>
+                    <div class="services__text">инфо.</div>
+                </div>
+                <div class="services__item">
+                    <img class="services__icon" src="assets/images/services/seo.png" alt="">
+
+                    <div class="services__title">заголовок</div>
+                    <div class="services__text">инфо.</div>
+                </div>
+                <div class="services__item">
+                    <img class="services__icon" src="assets/images/services/css-html.png" alt="">
+
+                    <div class="services__title">заголовок</div>
+                    <div class="services__text">инфо</div>
+                </div>
+                <div class="services__item">
+                    <img class="services__icon" src="assets/images/services/digital.png" alt="">
+
+                    <div class="services__title">заголовок</div>
+                    <div class="services__text">инфо.</div>
+                </div>
+            </div>
+
+        </div><!-- /.container -->
+    </section>
+
+
+    <!-- Devices -->
+    <section class="section  section--devices">
+        <div class="container">
+
+            <div class="section__header">
+                <h3 class="section__suptitle">вход</h3>
+                <h2 class="section__title">описание</h2>
+            </div>
+
+            <div class="devices">
+                <img class="devices__item" src="../ссайт/assets/images/1679031854_design-pibig-info-p-koridor-polikliniki-dizain-krasivo-51.jpg" alt="">
+                <img class="devices__item  devices__item--iphone" src="assets/images/gfg.jpg" alt="">
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Wedo -->
+    <section class="section">
+        <div class="container">
+
+            <div class="section__header">
+                <h3 class="section__suptitle">сервисы</h3>
+                <h2 class="section__title">описание</h2>
+                <div class="section__text">
+                    <p>текст</p>
+                </div>
+            </div>
+
+            <div class="wedo">
+                <div class="wedo__item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Xhs9buFZYmQ?si=CwNqinaBdpbf8UYX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+
+                <div class="wedo__item">
+
+                    <div class="accordion">
+                        <div class="accordion__item" data-collapse="#wedo_1">
+                            <div class="accordion__header">
+                                <img class="accordion__icon" src="assets/images/services/photography.png" alt="">
+                                <div class="accordion__title">кабинет</div>
+                            </div>
+                            <div class="accordion__content" id="wedo_1">
+                                <p>услуга</p>
+                            </div>
+                        </div>
+
+                        <div class="accordion__item " data-collapse="#wedo_2">
+                            <div class="accordion__header">
+                                <img class="accordion__icon" src="assets/images/services/creativity.png" alt="">
+                                <div class="accordion__title">кабинет</div>
+                            </div>
+                            <div class="accordion__content" id="wedo_2">
+                                <p>услуга</p>
+                            </div>
+                        </div>
+
+                        <div class="accordion__item" data-collapse="#wedo_3">
+                            <div class="accordion__header">
+                                <img class="accordion__icon" src="assets/images/services/webdesign.png" alt="">
+                                <div class="accordion__title">кабинет</div>
+                            </div>
+                            <div class="accordion__content" id="wedo_3">
+                                <p>услуга</p>
+                            </div>
+                        </div>
+                    </div><!-- /.accordion -->
+
+                </div><!-- /.wedo__item -->
+            </div><!-- /.wedo -->
+
+        </div>
+    </section>
+
+
+    <!-- Reviews 1 -->
+    <div class="section  section--gray">
+        <div class="container">
+
+            <div class="reviews">
+                <div data-slider>
+                    <div>
+                        <div class="reviews__item">
+                            <img class="reviews__photo" src="assets/images/908440-215728-kiseleva_l.jpg" alt="">
+                            <div class="reviews__text">описание</div>
+                            <div class="reviews__author">Анна Валерьевна</div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="reviews__item">
+                            <img class="reviews__photo" src="assets/images/IMG20231013212257.jpg" alt="">
+                            <div class="reviews__text">прогромист этого супер дупер пупер гипер мега сайта</div>
+                            <div class="reviews__author">Владик оладик</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Team -->
+    <section class="section">
+        <div class="container">
+
+            <div class="section__header">
+                <h3 class="section__suptitle">сотрудники</h3>
+                <h2 class="section__title">подзаголовок</h2>
+                <div class="section__text">
+                    <p>описание</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card__item">
+                    <div class="card__inner">
+                        <div class="card__img">
+                            <img src="assets/images/Снимок.PNG" alt="">
+                        </div>
+                        <div class="card__text">
+                            <div class="social">
+                                <a class="social__item" href="#" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a class="social__item" href="#" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a class="social__item" href="#" target="_blank">
+                                    <i class="fab fa-pinterest-p"></i>
+                                </a>
+                                <a class="social__item" href="#" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__info">
+                        <div class="card__name">имя</div>
+                        <div class="card__prof">пордфолио</div>
+                    </div>
+                </div><!-- /.card__item -->
+
+                <div class="card__item">
+                    <div class="card__inner">
+                        <div class="card__img">
+                            <img src="assets/images/Снимок.PNG" alt="">
+                        </div>
+                        <div class="card__text">
+                            <div class="social">
+                                <a class="social__item" href="#" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a class="social__item" href="#" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a class="social__item" href="#" target="_blank">
+                                    <i class="fab fa-pinterest-p"></i>
+                                </a>
+                                <a class="social__item" href="#" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__info">
+                        <div class="card__name">имя</div>
+                        <div class="card__prof">пордфолио</div>
+                    </div>
+                </div><!-- /.card__item -->
+
+                <div class="card__item">
+                    <div class="card__inner">
+                        <div class="card__img">
+                            <img src="assets/images/Снимок.PNG" alt="">
+                        </div>
+                        <div class="card__text">
+                            <div class="social">
+                                <a class="social__item" href="#" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a class="social__item" href="#" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a class="social__item" href="#" target="_blank">
+                                    <i class="fab fa-pinterest-p"></i>
+                                </a>
+                                <a class="social__item" href="#" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__info">
+                        <div class="card__name">имя </div>
+                        <div class="card__prof">пордфолио</div>
+                    </div>
+                </div><!-- /.card__item -->
+
+            </div><!-- /.card -->
+
+        </div><!-- /.container -->
+    </section>
+
+
+    <!-- Logos -->
+    <div class="section  section--gray">
+        <div class="container">
+
+            <div class="logos">
+                <div class="logos__item">
+                    <img class="logos__img" src="assets/images/rtr.png" alt="">
+                </div>
+                <div class="logos__item">
+                    <img class="logos__img" src="assets/images/rtr.png" alt="">
+                </div>
+                <div class="logos__item">
+                    <img class="logos__img" src="assets/images/rtr.png" alt="">
+                </div>
+                <div class="logos__item">
+                    <img class="logos__img" src="assets/images/rtr.png" alt="">
+                </div>
+                <div class="logos__item">
+                    <img class="logos__img" src="assets/images/rtr.png" alt="">
+                </div>
+                <div class="logos__item">
+                    <img class="logos__img" src="assets/images/rtr.png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="and">
+    <div id="and">
+        
+        
+        <a div href="" class="and__titel_line">контакт центр
+        </a div>
+        </div>
+
+    </div>
+
+    
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="../ссайт/assets/js/pip.js"></script>
+
+
+</body>
+</html>
 
